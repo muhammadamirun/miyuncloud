@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiyunCloud</title>
+
+  <style>
+    body {
+      background: #0a0a0a;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    h1 {
+      font-size: 48px;
+      color: #25AAE1;
+    }
+
+    p {
+      color: #cccccc;
+    }
+
+    button {
+      background: #25AAE1;
+      color: white;
+      padding: 14px 30px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>MiyunCloud</h1>
+  <p>Your cloud. Your world.</p>
+
+  <button onclick="alert('Welcome to MiyunCloud!')">
+    Get Started
+  </button>
+</body>
+</html>
